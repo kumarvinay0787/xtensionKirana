@@ -1,7 +1,7 @@
 # xtensionKirana
 Online General Store
 
-#author
+#Author
 Vinay Kumar
 
 #Description
