@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>xtension kirana</title>    
+        <title>xtension kirana</title>    
    
+        <style>
+            .main-table{
+                width: 100%;
+                height: 100%;
+                border:  1px solid;
+                border-color: black;
+            }
+            td{
+                border: 1px solid black;
+                padding: 10px 10px 10px 10px;
+            }
+            .left-div{
+                border: 1px solid black;
+                padding: 10px 10px 10px 10px;
+                align-content: center;
+            }
+        </style>
+        
+        <script type="text/javascript">
+            function onButtonClick()
+            {
+                alert("kuch to hua");
+            }
+        </script>
+        
     </head>
-     <body>
- Hello World      
-    </body>
-    
-    
-    
-    
-    
+    <body>
+        <header>
+            This is header
+        </header>
+        
+            <div>
+                <table class="main-table">
+                    <tr>
+                        <td style="width:25%">
+                            <div class="left-div">
+                                <textarea style="width: 100%"></textarea>
+                                <br>
+                                <input type="submit" onclick = "onButtonClick()"></input>
+                            </div>
+                            
+                        </td>
+                        <td style="width:50%">
+                            This is center section
+                        </td>
+                        <td>
+                            THis is right section
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        <footer>
+            This is footer
+        </footer>    
+    </body>    
  </html>
